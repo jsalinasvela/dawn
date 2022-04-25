@@ -1,3 +1,4 @@
+/* Accessibility Features */
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(
@@ -135,6 +136,8 @@ function onKeyUpEscape(event) {
   summaryElement.setAttribute('aria-expanded', false);
   summaryElement.focus();
 }
+
+/* Accessibility Features */
 
 class QuantityInput extends HTMLElement {
   constructor() {
